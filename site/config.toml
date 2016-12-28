@@ -1,0 +1,47 @@
+languageCode = "en-us"
+title = "tzoratto"
+baseurl = "http://example.org/"
+author = "Thomas Zoratto"
+canonifyurls = true
+paginate = 10
+theme = "blackburn"
+
+[params]
+	subtitle = "Yet another 'Yet another blog'"
+	dateFormat = "02 Jan 2006, 15:04"
+	brand = "tzoratto"
+
+[indexes]
+	tag = "tags"
+	topic = "topics"
+
+[menu]
+	[[menu.main]]
+		name = "Home"
+		pre = "<i class='fa fa-home fa-fw'></i>"
+		weight = 0
+		identifier = "home"
+		url = "/"
+	[[menu.main]]
+		name = "Posts"
+		pre = "<i class='fa fa-list fa-fw'></i>"
+		weight = 1
+		identifier = "post"
+		url = "/post/"
+	[[menu.main]]
+		name = "Tags"
+		pre = "<i class='fa fa-tags fa-fw'></i>"
+		weight = 2
+		identifier = "tags"
+		url = "/tags/"
+	[[menu.main]]
+		name = "About"
+		pre = "<i class='fa fa-user fa-fw'></i>"
+		weight = 3
+		identifier = "about"
+		url = "/about/"
+
+[social]
+	twitter = "t_zoratto"
+	github = "tzoratto"
+	linkedin = "thomas-zoratto-92b06110b"
