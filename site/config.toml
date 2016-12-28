@@ -10,6 +10,7 @@ theme = "blackburn"
 	subtitle = "Yet another 'Yet another blog'"
 	dateFormat = "02 Jan 2006, 15:04"
 	brand = "tzoratto"
+	disqus = "blog-tqzvd49bdq"
 
 [indexes]
 	tag = "tags"
