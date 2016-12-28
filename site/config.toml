@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "tzoratto"
-baseurl = "http://example.org/"
+baseurl = "https://blog.tzoratto.com/"
 author = "Thomas Zoratto"
 canonifyurls = true
 paginate = 10
